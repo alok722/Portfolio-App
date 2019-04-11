@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Alok</string>
+
+    <string name="about_alok">"Hi, My name is Alok Raj.I am currently pursuing my B.Tech from MCKV Institute Of Engineering. I am in 4th Year and my subject is Computer Science Engineering. I want to be a Developer and I am busy in making myself. Right Now, I am jack of all trade and I desire to be master of one. My dreams are Big and I believe in Living Dreams."</string>
+    <string name="skills">* Core Java "\n"* C Language "\n"* Android "\n"* HTML "\n"* CSS "\n"* Bootstrap "\n"* JavaScript "\n"* PHP with MySQL "\n"* Laravel
+      </string>
+
+    <string name="work">
+           * E Crime Management System "\n"* AVRIK(Safety App) "\n"* eCARD App "\n"* Shopkart "\n"* Restaurant website "\n"* Blog "\n"* Diskus Forum "\n"* for more refer to Github
+    </string>
+    <string name="contact">
+
+
+    </string>
+    <string name="home_about">Web/Android Developer \nDeveloper at Groupclap</string>
+    <string name="twitter">alok722</string>
+</resources>

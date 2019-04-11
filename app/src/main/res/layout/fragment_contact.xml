@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.imalok.alokportfolio.ContactFragment">
+
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        app:cardElevation="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="130dp"
+            android:layout_marginBottom="35dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/alok2"
+            android:id="@+id/contact_img"
+            android:layout_height="130dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/contact_img"
+                android:layout_marginStart="39dp"
+                android:layout_toEndOf="@+id/contact_img"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="ALOK RAJ"
+                android:textSize="25sp"
+                android:id="@+id/textView" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/textView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/git"
+                android:id="@+id/imageView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView"
+                android:layout_alignEnd="@+id/textView"
+                android:text="alok722"
+                android:textColor="@color/colorWebsiteTab"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
