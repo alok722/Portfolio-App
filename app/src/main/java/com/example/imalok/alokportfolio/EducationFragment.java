@@ -9,10 +9,10 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ContactFragment extends Fragment {
+public class EducationFragment extends Fragment {
 
 
-    public ContactFragment() {
+    public EducationFragment() {
         // Required empty public constructor
     }
 
@@ -20,9 +20,10 @@ public class ContactFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View contactView =inflater.inflate(R.layout.fragment_contact, container, false);
 
-        return contactView;
+        View educationView = inflater.inflate(R.layout.fragment_education, container, false);
+
+        return educationView;
     }
 
 }

@@ -14,9 +14,10 @@ public class AlokPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case 0: return new AboutFragment();
-            case 1: return new WorkFragment();
+            case 1: return new ExperienceFragment();
             case 2: return new SkillsFragment();
-            case 3: return new ContactFragment();
+            case 3: return new EducationFragment();
+            case 4: return new SocialFragment();
         }
 
         return null;
@@ -24,16 +25,17 @@ public class AlokPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 4;
+        return 5;
     }
 
     @Override
     public CharSequence getPageTitle(int position) {
         switch (position) {
             case 0: return "ABOUT";
-            case 1: return "WORK";
+            case 1: return "EXPERIENCE";
             case 2: return "SKILLS";
-            case 3: return "CONTACT";
+            case 3: return "EDUCATION";
+            case 4: return "SOCIAL";
         }
         return null;
     }

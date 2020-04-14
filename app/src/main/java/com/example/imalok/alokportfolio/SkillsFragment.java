@@ -25,5 +25,4 @@ public class SkillsFragment extends Fragment {
 
         return skillsView;
     }
-
 }

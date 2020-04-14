@@ -1,17 +1,32 @@
 <resources>
-    <string name="app_name">Alok</string>
+    <string name="app_name">Alok Raj</string>
 
-    <string name="about_alok">"Hi, My name is Alok Raj.I am currently pursuing my B.Tech from MCKV Institute Of Engineering. I am in 4th Year and my subject is Computer Science Engineering. I want to be a Developer and I am busy in making myself. Right Now, I am jack of all trade and I desire to be master of one. My dreams are Big and I believe in Living Dreams."</string>
-    <string name="skills">* Core Java "\n"* C Language "\n"* Android "\n"* HTML "\n"* CSS "\n"* Bootstrap "\n"* JavaScript "\n"* PHP with MySQL "\n"* Laravel
-      </string>
+    <string name="about1">✓ A passionate web developer exploring the edges of "<i>"MEAN"</i>" stack.</string>
+    <string name="about2">✓ Proficient in building end-to-end JavaScript web applications.</string>
+    <string name="about3">✓ Have a strong appetite to learn new technologies in a short span and implement independently.</string>
+    <string name="about4">✓ Past technical exp.: Android, PHP, WordPress.</string>
+    <string name="about5">✓ Webmaster @"<i>"OffbeatWriting"</i>" | Responsible for managing technical content @"<i>"OffbeatWriting"</i>".</string>
+    <string name="about6">✓ Humble and a great friend in need.</string>
 
-    <string name="work">
-           * E Crime Management System "\n"* AVRIK(Safety App) "\n"* eCARD App "\n"* Shopkart "\n"* Restaurant website "\n"* Blog "\n"* Diskus Forum "\n"* for more refer to Github
+    <string name="education1">
+        ✓ MCKV INSTITUTE OF ENGINEERING (2015-19)"\n"B.TECH-Computer Science Engineering"\n"8.08 DGPA
     </string>
-    <string name="contact">
-
-
+    <string name="education2">
+        ✓ TRIDENT PUBLIC SCHOOL (2013-15)"\n"12th Science (Math)"\n"CBSE
     </string>
-    <string name="home_about">Web/Android Developer \nDeveloper at Groupclap</string>
-    <string name="twitter">alok722</string>
+    <string name="education3">
+        ✓ CS DAV PUBLIC SCHOOL (2013)"\n"10th"\n"CBSE
+    </string>
+
+    <string name="experience1">
+        ✓ Tata Consultancy Services, Bangalore (Jun 2019–present)."\n"Assistant System Engineer."\n"<i>Responsible for developing MEAN Stack web application.</i>
+    </string>
+    <string name="experience2">
+        ✓ Groupclap Edtech, Kolkata (Jan 2019–Mar 2019)."\n"Intern (Developer)."\n"<i>Worked on multiple technology stacks like WebApp, Android App, Wordpress and Laravel</i>.
+    </string>
+    <string name="experience3">
+        ✓ Vedas Technocrats, Kolkata (Feb 2018–Jun 2018)."\n"Intern(Android Developer)."\n"<i>Developed Front-end of many apps</i>.
+    </string>
+
+    <string name="home_about">MEAN Stack Developer \n@Tata Consultancy Services</string>
 </resources>

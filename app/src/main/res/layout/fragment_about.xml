@@ -5,22 +5,135 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.example.imalok.alokportfolio.AboutFragment">
 
-    <android.support.v7.widget.CardView
-        android:layout_marginTop="10dp"
-        android:layout_centerHorizontal="true"
-        app:cardElevation="5dp"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/about"
-            android:textSize="18sp"
-            android:padding="10dp"
-            android:text="@string/about_alok"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+            <android.support.v7.widget.CardView
+                app:cardElevation="5dp"
+                android:layout_margin="7dp"
+                app:cardBackgroundColor="#fff"
+                android:id="@+id/firstCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/about1"
+                    android:textSize="17dp"
+                    android:textColor="#000"
+                    android:fontFamily="serif-monospace"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:text="@string/about1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </android.support.v7.widget.CardView>
 
-    </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                app:cardElevation="8dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="#fff"
+                android:id="@+id/secondCard"
+                android:layout_below="@id/firstCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/about2"
+                    android:textSize="17dp"
+                    android:textColor="#000"
+                    android:fontFamily="serif-monospace"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:text="@string/about2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="#fff"
+                android:layout_margin="7dp"
+                android:id="@+id/thirdCard"
+                android:layout_below="@id/secondCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/about3"
+                    android:textSize="17dp"
+                    android:textColor="#000"
+                    android:fontFamily="serif-monospace"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:text="@string/about3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                app:cardElevation="5dp"
+                android:layout_margin="7dp"
+                app:cardBackgroundColor="#fff"
+                android:id="@+id/fourthCard"
+                android:layout_below="@id/thirdCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/about4"
+                    android:textSize="17dp"
+                    android:textColor="#000"
+                    android:fontFamily="serif-monospace"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:text="@string/about4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                app:cardElevation="5dp"
+                android:layout_margin="7dp"
+                app:cardBackgroundColor="#fff"
+                android:id="@+id/fifthCard"
+                android:layout_below="@id/fourthCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/about5"
+                    android:textSize="17dp"
+                    android:textColor="#000"
+                    android:fontFamily="serif-monospace"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:text="@string/about5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                app:cardElevation="5dp"
+                app:cardBackgroundColor="#fff"
+                android:layout_margin="7dp"
+                android:id="@+id/sixthCard"
+                android:layout_below="@id/fifthCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/about6"
+                    android:textSize="17dp"
+                    android:textColor="#000"
+                    android:fontFamily="serif-monospace"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:text="@string/about6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+    </ScrollView>
 
 </RelativeLayout>

@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.imalok.alokportfolio.SocialFragment">
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/linkedIn"
+        app:cardBackgroundColor="#0073b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/linkedIn1"
+            android:textSize="23dp"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:text="LinkedIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/github"
+        android:layout_below="@id/linkedIn"
+        app:cardBackgroundColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/github1"
+            android:textSize="23dp"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:text="GitHub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/facebook"
+        android:layout_below="@id/github"
+        app:cardBackgroundColor="#4267b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/facebook1"
+            android:textSize="23dp"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:text="facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/twitter"
+        android:layout_below="@id/facebook"
+        app:cardBackgroundColor="#1da1f2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/twitter1"
+            android:textSize="23dp"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:text="Twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/instagram"
+        android:layout_below="@id/twitter"
+        app:cardBackgroundColor="#d62976"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/instagram1"
+            android:textSize="23dp"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:text="Instagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/instagram"
+        android:gravity="bottom"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="casual"
+        android:text="** To Learn and be Valuable **">
+    </TextView>
+
+</RelativeLayout>
